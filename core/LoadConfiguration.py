@@ -15,6 +15,7 @@ class LoadConfiguration:
         self.b_case_insensitive = True
         self.b_accent_insensitive = False
         self.b_styles = False
+        self.b_follow_links = False
         self.b_search_parent_layer = False
         self.b_add_parent_layer_name = True
         self.num_layers_to_confirm = 50

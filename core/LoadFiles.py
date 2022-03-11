@@ -44,7 +44,7 @@ class LoadFiles(ABC):
         self.progressBar.setMaximum(0)  # ProgressBar in busy mode
         layer_dict = dict()  # {'layer_path_1': layer_obj_1, ...}
 
-        for root, dirs, files in os.walk(self.configuration.base_dir):
+        for root, dirs, files in os.walk(self.configuration.base_dir,followlinks=self.configuration.b_follow_links):
             # files = [self.decodeName(f) for f in files]
             for file_ in files:
                 QApplication.processEvents()  # TODO: Perhaps better by chunks?

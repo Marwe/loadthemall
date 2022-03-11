@@ -4,99 +4,76 @@
 <context>
     <name>Base_LoadThemAll</name>
     <message>
-        <location filename="../ui/Ui_Base_LoadThemAll.ui" line="14"/>
         <source>Dialog</source>
-        <translation>Dialogue</translation>
+        <translation type="vanished">Dialogue</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_Base_LoadThemAll.ui" line="20"/>
         <source>Select a base directory</source>
-        <translation>Choisir le répertoire base du chargement</translation>
+        <translation type="vanished">Choisir le répertoire base du chargement</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_Base_LoadThemAll.ui" line="43"/>
         <source>Format </source>
-        <translation>Format </translation>
+        <translation type="vanished">Format </translation>
     </message>
     <message>
-        <location filename="../ui/Ui_Base_LoadThemAll.ui" line="73"/>
         <source>Alphanumeric filter</source>
-        <translation>Filtre alphanumérique</translation>
+        <translation type="vanished">Filtre alphanumérique</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_Base_LoadThemAll.ui" line="85"/>
         <source>Invert filter (i.e., prepend a logic NOT)</source>
-        <translation>Inverser le filtre (préfixer d&apos;un NOT)</translation>
+        <translation type="vanished">Inverser le filtre (préfixer d&apos;un NOT)</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_Base_LoadThemAll.ui" line="94"/>
         <source>Filter string</source>
-        <translation>Filtre textuel</translation>
+        <translation type="vanished">Filtre textuel</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_Base_LoadThemAll.ui" line="110"/>
         <source>Starts with</source>
-        <translation>Commence par</translation>
+        <translation type="vanished">Commence par</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_Base_LoadThemAll.ui" line="115"/>
         <source>In any position</source>
-        <translation>N&apos;importe où</translation>
+        <translation type="vanished">N&apos;importe où</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_Base_LoadThemAll.ui" line="123"/>
         <source>Ends with</source>
-        <translation>Se termine par</translation>
+        <translation type="vanished">Se termine par</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_Base_LoadThemAll.ui" line="134"/>
         <source>Bounding box filter</source>
-        <translation>Filtre dans une boite rectangulaire (emprise)</translation>
+        <translation type="vanished">Filtre dans une boite rectangulaire (emprise)</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_Base_LoadThemAll.ui" line="180"/>
         <source>North</source>
-        <translation>Nord</translation>
+        <translation type="vanished">Nord</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_Base_LoadThemAll.ui" line="221"/>
         <source>West</source>
-        <translation>Ouest</translation>
+        <translation type="vanished">Ouest</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_Base_LoadThemAll.ui" line="245"/>
         <source>East</source>
-        <translation>Est</translation>
+        <translation type="vanished">Est</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_Base_LoadThemAll.ui" line="292"/>
         <source>South</source>
-        <translation>Sud</translation>
+        <translation type="vanished">Sud</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_Base_LoadThemAll.ui" line="318"/>
         <source>Contains</source>
-        <translation>Contient</translation>
+        <translation type="vanished">Contient</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_Base_LoadThemAll.ui" line="326"/>
         <source>Intersects</source>
-        <translation>Intersecte</translation>
+        <translation type="vanished">Intersecte</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_Base_LoadThemAll.ui" line="331"/>
         <source>Map extent</source>
-        <translation>Emprise de la carte</translation>
+        <translation type="vanished">Emprise de la carte</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_Base_LoadThemAll.ui" line="344"/>
         <source>Date modified filter</source>
-        <translation>Filtre par date de modification</translation>
-    </message>
-    <message>
-        <location filename="../ui/Ui_Base_LoadThemAll.ui" line="385"/>
-        <source>ddd dd MMM yyyy hh:mm AP</source>
-        <translation></translation>
+        <translation type="vanished">Filtre par date de modification</translation>
     </message>
 </context>
 <context>
@@ -106,196 +83,176 @@
         <translation type="vanished">Choisir le répertoire base du chargement</translation>
     </message>
     <message>
-        <location filename="../Base_LoadThemAllDialog.py" line="100"/>
         <source>Before</source>
-        <translation>Avant</translation>
+        <translation type="vanished">Avant</translation>
     </message>
     <message>
-        <location filename="../Base_LoadThemAllDialog.py" line="101"/>
         <source>Exact date</source>
-        <translation>Date exacte</translation>
+        <translation type="vanished">Date exacte</translation>
     </message>
     <message>
-        <location filename="../Base_LoadThemAllDialog.py" line="102"/>
         <source>After</source>
-        <translation>Après</translation>
+        <translation type="vanished">Après</translation>
     </message>
 </context>
 <context>
     <name>DockWidget</name>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="20"/>
+        <location filename="../ui/Ui_DockWidget.ui" line="+20"/>
         <source>Load Them All</source>
         <translation>Load Them All</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="46"/>
+        <location line="+26"/>
         <source>Vector</source>
         <translation>Vecteur</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="100"/>
+        <location line="+54"/>
         <source>Geometry type filter</source>
         <translation>Filtre par type de géométríe</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="121"/>
+        <location line="+21"/>
         <source>Polygon</source>
         <translation>Polygone</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="128"/>
+        <location line="+7"/>
         <source>Point</source>
         <translation>Point</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="135"/>
+        <location line="+7"/>
         <source>Line</source>
         <translation>Lígne</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="166"/>
+        <location line="+31"/>
         <source>Raster</source>
         <translation>Raster</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="217"/>
+        <location line="+51"/>
         <source>Raster type filter</source>
         <translation>Filtre par type de raster</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="238"/>
+        <location line="+21"/>
         <source>Gray or Undefined</source>
         <translation>Gris ou non défini</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="245"/>
+        <location line="+7"/>
         <source>Palette</source>
         <translation>Palette de couleur</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="252"/>
+        <location line="+7"/>
         <source>Multiband</source>
         <translation>Multibande</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="259"/>
-        <source>Color Layer</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="280"/>
+        <location line="+28"/>
         <source>Configuration</source>
         <translation>Configuration</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="376"/>
+        <location line="+147"/>
         <source>Create groups based on directories&apos; names</source>
         <translation>Créer les groupes sur la base des noms de répertoires</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="398"/>
+        <location line="-22"/>
         <source>Turn off the loaded layers</source>
         <translation>Pas de chargement dynamique des couches</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="414"/>
+        <location line="-51"/>
         <source>Do not load empty vector layers </source>
         <translation>Ne pas charger les vecteurs vides </translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="430"/>
+        <location line="+186"/>
         <source>Sort loaded layers by name</source>
         <translation>Trier les couches par nom</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="464"/>
+        <location line="-79"/>
         <source>Reverse sort order</source>
         <translation>Inverser le tri</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="479"/>
+        <location line="+47"/>
         <source>Ignore case in the alphanumeric filter</source>
         <translation>Ignorer majuscules/minuscules dans le filtre</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="495"/>
+        <location line="+116"/>
         <source>This option requires the Python lib &apos;unidecode&apos;</source>
         <translation>Cette opcion nécessite la librairie Python &apos;unidecode&apos;</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="498"/>
+        <location line="+3"/>
         <source>Ignore accents in the alphanumeric filter</source>
         <translation>Ignorer les caractères spéciaux dans le filtre</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="514"/>
+        <location line="-151"/>
         <source>SubLayers</source>
         <translation>Sous-couches</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="520"/>
+        <location line="+6"/>
         <source>Include parent in search</source>
         <translation>Inclure le parent dans la recherche</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="527"/>
+        <location line="+7"/>
         <source>Include parent name in loaded sublayers</source>
         <translation>Inclure le nom du parent dans les sous-couches</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="590"/>
+        <location line="+111"/>
         <source>Number of layers to show you a confirmation dialog before the load</source>
         <translation>Nombre de couches pour faire apparaitre la fenêtre de confirmation du chargement</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="628"/>
+        <location line="+41"/>
         <source>Apply group style to layers</source>
         <translation>Appliquer vos styles</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="918"/>
+        <location line="+287"/>
         <source>Copyright (C) 2010-2021 Germán Carrillo</source>
         <translation type="unfinished">Copyright (C) 2010-2020 Germán Carrillo {2010-2021 ?}</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="984"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Code contributors:&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;David Bakeman (v2.1 and v2.4)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Soeren Gebbert (v2.3)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Jean Hemmi (v3.1 &amp;amp; French transl.)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Guillaume Lostis (v3.3)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="572"/>
+        <location line="-346"/>
         <source>50</source>
         <translation>50</translation>
-    </message>
-    <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="624"/>
-        <source>When checked, if groups are checked and a QML is found inside a layer folder with the
-same folder name (e.g., my_group.qml), it will be applied to all layers inside that group.</source>
-        <oldsource>When checked, if a QML file shares a layer&apos;s name and path, it will be applied. If groups are checked and a QML has the group name, it will be applied to all layers inside that group.</oldsource>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Apply layer style</source>
         <translation type="vanished">Appliquer vos styles</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="655"/>
+        <location line="+83"/>
         <source>About</source>
         <translation>A propos</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="713"/>
+        <location line="+58"/>
         <source>The &lt;i&gt;Load Them All&lt;/i&gt; plugin allows you to load at the same time a number of layers stored in a directory structure, based on a variety of filters you may customize.</source>
         <translation>L&apos;extension &lt;i&gt;Load Them All&lt;/i&gt; permet de charger un lot de couches ainsi que la structure des répertoires. En option, on peut personnaliser le chargement par plusieurs filtres.</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="760"/>
+        <location line="+47"/>
         <source>Help</source>
         <translation>Aide</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="813"/>
+        <location line="+53"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Feel free to report bugs, suggest improvements or say hello at gcarrillo@linuxmail.org or directly at the &lt;a href=&quot;https://github.com/gacarrillor/loadthemall&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;GitHub repository&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Retour de bugs, proposition d&apos;améliorations ou salutations à gcarrillo@linuxmail.org ou directement dans le &lt;a href=&quot;https://github.com/gacarrillor/loadthemall&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;dépôt GitHub&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -304,7 +261,7 @@ same folder name (e.g., my_group.qml), it will be applied to all layers inside t
         <translation type="vanished">Copyright (C) 2010-2020 Germán Carrillo</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="943"/>
+        <location line="+130"/>
         <source>&lt;i&gt;Licensed under the terms of GNU GPL 2&lt;/i&gt;</source>
         <translation>&lt;i&gt;Licencia GNU GPL 2&lt;/i&gt;</translation>
     </message>
@@ -313,12 +270,12 @@ same folder name (e.g., my_group.qml), it will be applied to all layers inside t
         <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Code contributors:&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;     David Bakeman (v2.1 and v2.4)&lt;br/&gt;     Soeren Gebbert (v2.3)&lt;br/&gt;     Jean Hemmi (v3.1 &amp;amp; French transl.)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="1073"/>
+        <location line="+130"/>
         <source>Load layers</source>
         <translation>Charger les couches</translation>
     </message>
     <message>
-        <location filename="../ui/Ui_DockWidget.ui" line="1080"/>
+        <location line="+7"/>
         <source>Cancel</source>
         <translation>Annuler</translation>
     </message>
@@ -326,72 +283,86 @@ same folder name (e.g., my_group.qml), it will be applied to all layers inside t
         <source>Apply styles</source>
         <translation type="vanished">Appliquer vos styles</translation>
     </message>
+    <message>
+        <location line="-831"/>
+        <source>Color Layer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+378"/>
+        <source>When checked, if groups are checked and a QML is found inside a layer folder with the
+same folder name (e.g., my_group.qml), it will be applied to all layers inside that group.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Follow (soft) linked files directories in the files system</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Follow links in file system</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+343"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Code contributors:&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;David Bakeman (v2.1 and v2.4)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Soeren Gebbert (v2.3)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Jean Hemmi (v3.1 &amp;amp; French transl.)&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Guillaume Lostis (v3.3)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Load Them All</name>
     <message>
-        <location filename="../LoadFiles.py" line="140"/>
         <source>Load Them All</source>
-        <translation>Load Them All</translation>
+        <translation type="vanished">Load Them All</translation>
     </message>
     <message>
-        <location filename="../LoadFiles.py" line="141"/>
         <source>There are {} layers to load.
  Do you want to continue?</source>
-        <translation>{} couches sont à charger.
+        <translation type="vanished">{} couches sont à charger.
  Voulez-vous continuer?</translation>
     </message>
     <message>
-        <location filename="../LoadFiles.py" line="232"/>
         <source> You can see a list of not loaded layers in the QGIS log (tab &apos;Load Them All&apos;).</source>
-        <translation> Vous pouvez retrouver la liste des vouches non chargées dans la log de QGIS &apos;Load Them All&apos;.</translation>
+        <translation type="vanished"> Vous pouvez retrouver la liste des vouches non chargées dans la log de QGIS &apos;Load Them All&apos;.</translation>
     </message>
     <message>
-        <location filename="../LoadFiles.py" line="236"/>
         <source>layers were loaded succesfully.</source>
-        <translation>couches déjà chargées.</translation>
+        <translation type="vanished">couches déjà chargées.</translation>
     </message>
     <message>
-        <location filename="../LoadFiles.py" line="238"/>
         <source>layers loaded succesfully.</source>
-        <translation>couches déjà chargées.</translation>
+        <translation type="vanished">couches déjà chargées.</translation>
     </message>
     <message>
-        <location filename="../LoadFiles.py" line="240"/>
         <source>layers was loaded succesfully.</source>
-        <translation>couche déjà chargée.</translation>
+        <translation type="vanished">couche déjà chargée.</translation>
     </message>
     <message>
-        <location filename="../LoadFiles.py" line="242"/>
         <source>layer was loaded succesfully.</source>
-        <translation>couche déjà chargée.</translation>
+        <translation type="vanished">couche déjà chargée.</translation>
     </message>
     <message>
-        <location filename="../LoadFiles.py" line="246"/>
         <source> out of </source>
-        <translation> parmi </translation>
+        <translation type="vanished"> parmi </translation>
     </message>
     <message>
-        <location filename="../LoadFiles.py" line="265"/>
         <source> or </source>
-        <translation> ou </translation>
+        <translation type="vanished"> ou </translation>
     </message>
     <message>
-        <location filename="../LoadFiles.py" line="268"/>
         <source>There are no &lt;i&gt;</source>
-        <translation>Aucune archive &lt;i&gt;</translation>
+        <translation type="vanished">Aucune archive &lt;i&gt;</translation>
     </message>
     <message>
-        <location filename="../LoadFiles.py" line="269"/>
         <source>&lt;/i&gt; files to load from the base directory with this filter.
 </source>
-        <translation>&lt;/i&gt; fichiers à charger dans le répertoire et répondant à vos filtres.
+        <translation type="vanished">&lt;/i&gt; fichiers à charger dans le répertoire et répondant à vos filtres.
 </translation>
     </message>
     <message>
-        <location filename="../LoadFiles.py" line="271"/>
         <source>Change those parameters and try again.</source>
-        <translation>Changer vos paramétrages et charger à nouveau.</translation>
+        <translation type="vanished">Changer vos paramétrages et charger à nouveau.</translation>
     </message>
 </context>
 <context>

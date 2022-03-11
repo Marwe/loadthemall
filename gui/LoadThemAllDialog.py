@@ -65,6 +65,7 @@ class LoadThemAllDialog(QDockWidget, Ui_DockWidget):
         self.chkSearchParentLayer.stateChanged.connect(self.saveConfigTabSettings)
         self.chkAddParentLayerName.stateChanged.connect(self.saveConfigTabSettings)
         self.chkStyles.stateChanged.connect(self.saveConfigTabSettings)
+        self.chkFollowLinks.stateChanged.connect(self.saveConfigTabSettings)
         self.btnHelp.clicked.connect(self.help)
         self.btnLoadLayers.clicked.connect(self.load)
         self.btnCancel.setVisible(False)
@@ -122,6 +123,7 @@ class LoadThemAllDialog(QDockWidget, Ui_DockWidget):
             configuration.b_search_parent_layer = self.chkSearchParentLayer.isChecked()
             configuration.b_add_parent_layer_name = self.chkAddParentLayerName.isChecked()
             configuration.b_styles = self.chkStyles.isChecked()
+            configuration.b_follow_links = self.chkFollowLinks.isChecked()
             n = int(self.txtNumLayersToConfirm.text())
             if n <= 0: n = 50
             configuration.num_layers_to_confirm = n
@@ -323,6 +325,7 @@ class LoadThemAllDialog(QDockWidget, Ui_DockWidget):
         settings.setValue("searchParentLayer", self.chkSearchParentLayer.isChecked())
         settings.setValue("addParentLayerName", self.chkAddParentLayerName.isChecked())
         settings.setValue("styles", self.chkStyles.isChecked())
+        settings.setValue("followLinks", self.chkFollowLinks.isChecked())
         n = int(self.txtNumLayersToConfirm.text())
         if n <= 0: n = 50
         settings.setValue("numLayersToConfirm", n)
@@ -484,7 +487,11 @@ class LoadThemAllDialog(QDockWidget, Ui_DockWidget):
         if not settings.value("styles") is None:
             self.chkStyles.setChecked(settings.value("styles", type=bool))
         else:
-            self.chkStyles.setChecked(False)
+            self.chkFollowLinks.setChecked(False)
+        if not settings.value("followLinks") is None:
+            self.chkFollowLinks.setChecked(settings.value("followLinks", type=bool))
+        else:
+            self.chkFollowLinks.setChecked(False)
 
         if not settings.value("numLayersToConfirm") is None:
             n = int(settings.value("numLayersToConfirm"))
