@@ -1,3 +1,23 @@
+"""
+/***************************************************************************
+LoadThemAll
+A QGIS plugin
+Loads files stored in a directory structure recursively, based on several filters
+                             -------------------
+begin                : 2010-10-03
+copyright            : (C) 2010 by Germán Carrillo (GeoTux)
+email                : gcarrillo@linuxmail.org
+ ***************************************************************************/
+
+/***************************************************************************
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ ***************************************************************************/
+"""
 import os
 import locale
 from abc import (ABC,
@@ -138,7 +158,7 @@ class LoadFiles(ABC):
 
                     # Finally add the layer and apply the options the user chose
                     if self.configuration.b_groups:
-                        group = self.tree.addGroup(os.path.dirname(layer_path))
+                        group = self.tree.add_group(os.path.dirname(layer_path))
 
                     baseName = os.path.basename(layer_path)
                     layerName = os.path.splitext(baseName)[0]
@@ -155,9 +175,9 @@ class LoadFiles(ABC):
                     if ml.isValid():
                         layersLoaded += 1
                         if self.configuration.b_groups:
-                            self.tree.addLayerToGroup(ml, group)
+                            self.tree.add_layer_to_group(ml, group)
                         else:
-                            self.tree.addLayer(ml, self.configuration.b_layers_off)
+                            self.tree.add_layer(ml, self.configuration.b_layers_off)
 
                         # Look if there is a style to apply
                         bStyleFound = False
@@ -193,7 +213,7 @@ class LoadFiles(ABC):
                     self.progressBar.setValue(step)
 
                 if self.configuration.b_groups and self.configuration.b_layers_off:  # Parent group must be invisible
-                    self.tree.setParentInvisible()
+                    self.tree.set_parent_invisible()
 
                 self.iface.mapCanvas().setRenderFlag(True)  # Finish the loading process
 
@@ -221,7 +241,7 @@ class LoadFiles(ABC):
                                                     duration=20)
 
         if self.configuration.b_groups:
-            self.tree.removeEmptyGroups()
+            self.tree.remove_empty_groups()
 
         if numLayers == 0:
             self.progressBar.reset()
