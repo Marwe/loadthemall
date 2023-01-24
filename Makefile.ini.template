@@ -1,0 +1,2 @@
+QGIS_PROFILE :=${HOME}/.local/share/QGIS/QGIS3/profiles/development
+
